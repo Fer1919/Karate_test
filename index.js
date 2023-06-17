@@ -122,10 +122,17 @@ function resultado() {
   
   if (document.getElementById('p77').checked==true) {p20=1}
   
-  else {p6=0}
+  else {p20=0}
+
+
+   //<!-- 21ª pregunta -->
+  
+   if (document.getElementById('p82').checked==true) {p21=1}
+  
+   else {p21=0}
 
        
-    nota=p1+p2+p3+p4+p5+p6+p7+p8+p9+p10+p11+p12+p13+p14+p15+p16+p17+p18+p19+p20;
+    nota=p1+p2+p3+p4+p5+p6+p7+p8+p9+p10+p11+p12+p13+p14+p15+p16+p17+p18+p19+p20+p21;
     
     alert(" Aciertos: " + nota);
     
