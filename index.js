@@ -137,7 +137,7 @@ function resultado() {
     alert(" Aciertos: " + nota);
     
     //location.reload();
-    if (nota==20){
+    if (nota==21){
         alert ('Obtuvíste una puntuación perfecta!!!!!! //APP BY NANDO SCRIPT')
     }
     else{
